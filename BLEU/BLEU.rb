@@ -1,7 +1,6 @@
 #! /usr/local/bin/ruby19
 # -*- coding: utf-8 -*-
 #
-# Unpublished Copyright(C) NTT Resonat 2016
 #
 #【BLEU】
 #
