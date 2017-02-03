@@ -39,8 +39,7 @@ class MtPredict:
 		# - 推定側と同じになっていないといけない
 		self.k = 512
 		# encoder, decoder のインスタンス
-		self.model = ED.EncoderDecoder(self.logging, len(self.voc2id), 
-																	 len(self.id2voc), self.k, self.id2voc, self.voc2id, self.eos_id)
+		self.model = ED.EncoderDecoder(self.logging, len(self.voc2id), len(self.id2voc), self.k, self.id2voc, self.voc2id, self.eos_id)
 		serializers.load_npz(self.model_file, self.model)
 		# 分かち書きインスタンスを作成
 		self.to = T.Tokenizer()
