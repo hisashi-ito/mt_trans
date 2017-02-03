@@ -1,4 +1,4 @@
-B1;95;0c#! /usr/local/bin/python2.7
+#! /usr/local/bin/python2.7
 # -*- coding: utf-8 -*-
 #
 #【mt_train.py】
