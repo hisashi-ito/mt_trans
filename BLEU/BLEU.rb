@@ -139,7 +139,7 @@ def main(argv)
   end
   logger.info("***start BLEU***")
   BLEU.new(logger, input, num_gram).perform()
-  logger.info("***start BLEU***")
+  logger.info("***end BLEU***")
 end
 
 if __FILE__ == $0
