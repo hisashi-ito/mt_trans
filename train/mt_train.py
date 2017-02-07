@@ -24,6 +24,7 @@ import argparse
 import logging
 import copy
 sys.path.append(".")
+sys.path.append("../lib")
 import decoder_encoder as ED
 import numpy as np
 import chainer
