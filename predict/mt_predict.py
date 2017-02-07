@@ -15,6 +15,7 @@
 #
 import sys
 sys.path.append(".")
+sys.path.append("../lib")
 import os
 import argparse
 import logging
